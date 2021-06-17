@@ -2,11 +2,12 @@
 
 * {
 	box-sizing: border-box;
+	text-align: center;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #e5e5e5;
+	background-color: #bab4c5;
 	display: flex;
 	padding-top: 5rem;
 	justify-content: center;
@@ -35,9 +36,9 @@ body {
 	border: 1px solid #eee;
 	box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
 	border-radius: 20px;
-	background: #f7f6f7;
+	background: #19acb1;
 	padding: 0.8rem 1rem;
-	color: #828282;
+	color: #111;
 	text-align: center;
 	cursor: grab;
 }
@@ -49,22 +50,23 @@ body {
 .placeholder {
 	width: 150px;
 	height: 66px;
+	background-color: #bab4c5;
 }
 
 .start {
-	background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+	background: linear-gradient(90deg, #aa7bb6 0%, #422588 179.25%);
 }
 
 .progress {
-	background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+	background: linear-gradient(90deg, #422588 0%, #05ad0d 100%);
 }
 
 .done {
-	background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+	background: linear-gradient(90deg, #05ad0d 0%, #d5e91f 100%);
 }
 
 .hold {
-	border: 3px solid #8ed7ed;
+	border: 3px solid #035e7a;
 }
 
 .hide {
@@ -72,5 +74,5 @@ body {
 }
 
 .hovered {
-	border-top: 2px solid #8ed7ed;
+	border-top: 2px solid #035e7a;
 }
